@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  background-color: #f2f2f2;
 }
 
 *, *::before, *::after {
@@ -8,12 +9,28 @@ html {
 
 body {
   font-family: "Lato", sans-serif;
+  padding: 1em;
+  text-align: left;
+  margin: 1.5em;
+  text-align: center;
 }
- h1 {
-   font-weight: bold;
- }
 
- a {
-   margin: 1.5rem;
-   max-width: 25em;
- }
+h1 {
+  font-weight: bold;
+  color: #666;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0.4em 0.75em 0.5em;
+  max-width: 25em;
+  padding: 2em;
+  border-radius: 3px;
+  border: #333;
+}
+
+img {
+  vertical-align: middle;
+  display: inline-block;
+  width: 100%;
+}
